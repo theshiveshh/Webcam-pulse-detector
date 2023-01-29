@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor</title>
+
+    <link rel="stylesheet" href={{ url_for('static', filename='style1.css') }}>
+
+  </head>
+  
+  <body>
+    <div class="header">
+    <div class="logo">Monitor</div>
+    <nav>
+      <a href="signup.html">Register</a>
+      <a href="register.html">Login</a>
+      <div class="animation start-home"></div>
+    </nav>
+  </div>
+
+  <div>
+
+  
+  <h1 align="center">Monitor</h1>
+  <img id="bg" class="center" src="{{ url_for('video_feed') }}">
+
+  </div>
+
+  </body>
+</html>

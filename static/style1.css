@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #2c3e50;
+}
+.logo{
+	font-weight:bold;
+	margin: 100px 0px 0px 120px;
+	font-size: 2.5rem;
+	text-shadow: 1px 1px white;
+	color: wheat;
+
+}
+
+  
+nav{
+	position: relative;
+	margin: -45px 0px 0px 1220px;
+	width: 210px;
+	height: 50px;
+	background: #34495e;
+	border-radius: 20px;
+	font-size: 0;
+	box-shadow: 7px 7px 3px 0px rgba(0,0,0,.1);
+}
+nav a{
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: wheat;
+	text-decoration: none;
+	line-height: 50px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+nav .animation{
+	position: absolute;
+	height: 100%;
+	/* height: 5px; */
+	top: 0;
+	/* bottom: 0; */
+	z-index: 0;
+	background: #444;
+	border-radius: 20px;
+	transition: all .5s ease 0s;
+}
+nav a:nth-child(1){
+	width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 100px;
+	left: 0;
+}
+nav a:nth-child(2){
+	width: 110px;
+}
+nav a:nth-child(2):hover~.animation{
+	width: 110px;
+	left: 100px;
+}
+nav a:nth-child(3){
+	width: 100px;
+}
+nav a:nth-child(3):hover~.animation{
+	width: 100px;
+	left: 210px;
+}
+nav a:nth-child(4){
+	width: 160px;
+}
+nav a:nth-child(4):hover~.animation{
+	width: 160px;
+	left: 310px;
+}
+nav a:nth-child(5){
+	width: 120px;
+}
+nav a:nth-child(5):hover~.animation{
+	width: 120px;
+	left: 470px;
+}

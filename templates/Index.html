@@ -1,0 +1,46 @@
+<!--LANDING PAGE-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={{ url_for('static', filename='style.css') }}>
+    <title>EA Alert</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class ="logo">EA Alert</h2>
+            <ul class="nav_links">
+                <li><a href="index" title="">Home</a></li>
+                <li><a href="login" title="">Login</a></li>
+                <li><a href="sign_up" title="">Create Account</a></li>
+                <li><a href="#" title="">About</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </header>
+        <div class="overlay"></div>
+        <video src={{ url_for('static', filename='BGVID.mp4') }} muted loop autoplay></video>
+        <div class="text">
+            <h2>EA Alert</h2>
+            <br>
+            <h3>Emergency Ambulance Alert</h3>
+            <br>
+            <p>We have ideated a revolutionary platform for emergency services. As you guys are aware a lot of critical medical conditions can be detected with the help of machine learning algorithms.
+            </p>
+            <a href="/monitor">Explore Now!</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+          </ul>
+        </section>
+
+    </section>
+    
+</body>
+</html>
