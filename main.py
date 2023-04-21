@@ -1,7 +1,7 @@
 from flask import Flask, render_template, Response,url_for,redirect,jsonify
 from pdetect import out
 from cv2 import VideoCapture
-import tim
+import time
 app = Flask(__name__)
 
 @app.route('/')
