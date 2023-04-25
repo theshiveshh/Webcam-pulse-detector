@@ -34,7 +34,7 @@ def monitor():
 def video_feed():
     return Response(gen(),mimetype='multipart/x-mixed-replace; boundary=frame')
 
-# @app.route('/graph_feed')
+
 # def graph_feed():
 #     return Response(gen1(),mimetype='multipart/x-mixed-replace; boundary=frame1')
 
